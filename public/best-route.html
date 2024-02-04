@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Route</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="bestroute.css">
+</head>
+<body>
+    <header>
+        <!-- Your existing header/nav content -->
+    </header>
+
+    <main>
+        <div id="map"></div>
+        <div class="route-form-container">
+            <h2>Find the Best Route</h2>
+            <form id="routeForm">
+                <select id="startLocation" required>
+                    <!-- Bus stops and depots options will be populated here -->
+                </select>
+                <select id="endLocation" required>
+                    <!-- Bus stops and depots options will be populated here -->
+                </select>
+                <button type="submit">Calculate Route</button>
+            </form>
+        </div>
+        <div id="routeResult">
+            <!-- The route details will be displayed here -->
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="route-script.js"></script>
+</body>
+</html>

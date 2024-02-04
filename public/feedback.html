@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment Analysis</title>
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #ece9e6;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 500px;
+      margin: auto;
+      text-align: center;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 2px solid #d1d1d1;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    textarea:focus {
+      border-color: #a8a8a8;
+      background-color: #fff;
+      outline: none;
+    }
+
+    button {
+      background-color: #4b79a1;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      transition: background-color 0.3s, transform 0.2s;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background-color: #3a6073;
+      transform: translateY(-2px);
+    }
+
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #333;
+      font-size: 20px;
+    }
+
+    h3 {
+      color: #4b79a1;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>Give Us a feedback of your journey!
+      Suggestions are always welcomed!
+    </p>
+
+    <h3>Feedback</h3>
+    <textarea id="feedbackInput" rows="4" placeholder="Provide feedback here..."></textarea>
+    <button onclick="submitFeedback()">Submit Feedback</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function analyzeSentiment() {
+      // Placeholder for sentiment analysis function
+      // You can implement your sentiment analysis logic here
+    }
+
+    function submitFeedback() {
+      var feedbackInput = document.getElementById('feedbackInput').value;
+
+      if (feedbackInput.trim() !== "") {
+        // Placeholder for sentiment analysis (you can call analyzeSentiment here)
+
+        // Display feedback submitted prompt
+        document.getElementById('result').innerHTML = '<p>Feedback submitted! Thank you!</p>';
+      } else {
+        // Handle case where feedback is empty
+        document.getElementById('result').innerHTML = '<p>Please provide feedback before submitting.</p>';
+      }
+    }
+  </script>
+</body>
+</html>

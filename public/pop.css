@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.main-header {
+    background-color: #20232a;
+    color: #61dafb;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.section-analysis, .section-data-vis, .section-model-insights, .section-map {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.chart {
+    height: 300px;
+    margin-top: 20px;
+    /* Placeholder for charts */
+}
+
+.section-map #bus-map {
+    height: 400px;
+    /* Placeholder for map */
+}
+
+.main-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #20232a;
+    color: white;
+}

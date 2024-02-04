@@ -1,0 +1,66 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+    overflow: hidden; 
+    /* Prevent scrolling */
+}
+
+#map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send the map to the background */
+}
+
+header {
+    background-color: #353535;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1; /* Bring the header to the front */
+}
+
+main {
+    padding: 10px;
+    margin: 60px auto; /* Adjust margin for the main box */
+    background-color: rgba(255, 255, 255, 0.9); /* Add some transparency to the main box */
+    width: 70%; /* Adjust the width as needed */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 2; /* Bring the main box to the front */
+}
+
+button{
+    padding: 20px;
+    color: wheat;
+    background-color: black;
+}
+
+/* ... Other styles remain the same ... */
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        width: 95%;
+    }
+
+    #routeForm select,
+    #routeForm button {
+        width: 100%;
+    }
+}
