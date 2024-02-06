@@ -1,0 +1,25 @@
+Ward_Names,Land_Area,TOT_P_DEN,Bus_Stop_Count,Pop_Density_Category,Bus_Stop_Category,Label,Prediction
+Colaba,12.5,14801.12,28,Low,Medium,None,None
+Sandhurst Road,2.5,50916.0,2,High,Low,Increase,Increase
+Marine Lines,1.8,92311.67,12,High,Medium,None,None
+Grant Road,6.6,52555.45,9,High,Low,Increase,Increase
+Byculla,7.4,53146.76,30,High,Medium,None,None
+Matunga,13.0,40694.92,26,Medium,Medium,None,None
+Parel,14.0,25783.71,54,Medium,Medium,None,None
+Dadar/Plaza,9.1,41510.88,0,Medium,Low,None,None
+Elphinstone,10.0,59903.9,0,High,Low,Increase,Increase
+Khar/Santacruz,13.5,22783.78,0,Low,Low,None,None
+Bandra,11.6,48037.84,127,High,High,None,None
+Andheri (East),24.8,33221.17,0,Medium,Low,None,None
+Andheri (West),23.4,31995.21,0,Medium,Low,None,None
+Kurla,15.9,56743.71,92,High,Medium,None,None
+Chembur,32.5,24852.92,108,Medium,High,None,None
+Chembur (West),19.5,21122.72,0,Low,Low,None,None
+Ghatkopar,26.0,23955.88,80,Low,Medium,None,None
+Malad,19.1,49286.18,103,High,High,None,None
+Goregaon,24.4,18996.19,121,Low,High,Reduce,None
+Borivali,50.0,11243.24,149,Low,High,Reduce,Reduce
+Dahisar,18.0,23964.89,75,Medium,Medium,None,None
+Kandivali,17.8,38833.09,114,Medium,High,None,None
+Bhandup,64.0,11621.61,92,Low,Medium,None,None
+Mulund,45.4,7521.21,130,Low,High,Reduce,Reduce
